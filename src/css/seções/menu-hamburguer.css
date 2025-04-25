@@ -1,0 +1,114 @@
+.cabecalho .menu-desktop ul {
+    display: flex;
+}
+
+.cabecalho .menu {
+    display: none;
+    width: 6rem;
+    height: 6rem;
+    align-self: flex-end;
+}
+
+.cabecalho .menu-desktop label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cabecalho .hamburguer {
+    background-color: var(--cor-primaria);
+    position: relative;
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    top: 2.9rem;
+    left: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .hamburguer::before,
+.cabecalho .hamburguer::after {
+    background-color: var(--cor-primaria);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: var(--transições-elementos) ease-in-out;
+}
+
+.cabecalho .hamburguer::before {
+    top: -1rem;
+}
+
+.cabecalho .hamburguer::after {
+    bottom: -1rem;
+}
+
+.cabecalho input {
+    display: none;
+}
+
+.cabecalho input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+.cabecalho input:checked ~ label .hamburguer::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.cabecalho input:checked ~ label .hamburguer::after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+@media (max-width: 700px) {
+
+    .cabecalho .interface {
+        position: relative;
+      }
+    
+      .cabecalho .menu {
+        display: block;
+      }
+    
+      .menu-mobile {
+        position: relative;
+      }
+    
+      .menu-mobile ul {
+        position: absolute;
+        top: 6rem;
+        right: 0;
+        display: none;
+        background-color: var(--cor-background-habilidades);
+        opacity: 0.95;
+        width: 20rem;
+        padding: 2rem;
+        box-shadow: 0 0 0.5rem;
+        border-radius: 0.8rem;
+        z-index: 100;
+      }
+    
+      .menu-mobile input:checked ~ ul {
+        display: block;
+      }
+    
+      .menu-mobile ul a {
+        text-align: center;
+        padding: 1rem 0;
+        display: block;
+        color: #000;
+        text-decoration: none;
+      }
+    
+      .cabecalho .menu-desktop ul {
+        display: none;
+      }
+    
+      .cabecalho .menu-desktop {
+        position: static;
+      }
+}
+

@@ -1,0 +1,45 @@
+.cabecalho {
+    padding: 4rem 0;
+}
+
+.cabecalho>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .interface .logo a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cabecalho .interface .logo a h2 {
+    font-size: 1.7rem;
+    font-family: var(--font-logo);
+    font-weight: 600;
+    color: var(--cor-primaria);
+    border: 0.3rem solid var(--cor-secundaria);
+    box-shadow: 0 0 1rem;
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+
+.cabecalho .interface .menu-desktop ul li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.cabecalho .interface .menu-desktop ul li a {
+    font-weight: 600;
+    color: var(--cor-primaria);
+    transition: var(--transições-elementos);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.cabecalho .interface .menu-desktop ul li a:hover {
+    color: #000;
+    background-color: var(--cor-primaria);
+}
+

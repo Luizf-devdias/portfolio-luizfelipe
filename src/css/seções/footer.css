@@ -1,0 +1,49 @@
+.rodape {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.rodape .info-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+
+.rodape .info-rodape h2 {
+    color: var(--cor-primaria);
+    font-size: 3rem;
+}
+
+.rodape .info-rodape .social-links a i{
+    background-color: var(--cor-primaria);
+    color: var(--cor-background);
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 100%;
+    font-size: var(--font-size-awesomes);
+    transition: var(--transições-elementos);
+}
+
+.rodape .info-rodape .social-links a i:hover {
+    box-shadow: 0 0 1rem var(--cor-primaria);
+    transform: scale(1.05);
+}
+
+.rodape hr {
+    height: 0.1rem;
+    border: none;
+    background-color: var(--cor-primaria);
+    margin-bottom: 0.8rem;
+}
+
+.rodape .email {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rodape .email i {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+}

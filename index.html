@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Luiz Felipe</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/global.css">
+
+
+  <link rel="stylesheet" href="src/css/seções/header.css">
+  <link rel="stylesheet" href="src/css/seções/menu-hamburguer.css">
+  <link rel="stylesheet" href="src/css/seções/inicio.css">
+  <link rel="stylesheet" href="src/css/seções/sobre.css">
+  <link rel="stylesheet" href="src/css/seções/habilidades.css">
+  <link rel="stylesheet" href="src/css/seções/projetos.css">
+  <link rel="stylesheet" href="src/css/seções/footer.css">
+
+  <link rel="stylesheet" href="src/css/responsive.css">
+
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <section class="interface">
+
+      <div class="logo">
+        <a href="#">
+          <h2>LF</h2>
+        </a>
+      </div>
+
+      <nav class="menu-desktop">
+        <div class="menu-mobile">
+          <input type="checkbox" id="menu-hamburguer">
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </section>
+  </header>
+
+  <main>
+
+    <section class="inicio" id="inicio">
+      <section class="informacoes-inicio">
+        <h2>TRANSFORMANDO IDEIAS EM SOLUÇÕES DIGITAIS<span>.</span></h2>
+
+        <p>Cada projeto aqui representa mais do que código. São soluções criadas com foco na experiência, desempenho e
+          propósito. Tudo é pensado para funcionar bem, ser útil e causar impacto de verdade.
+        </p>
+
+        <div class="social-links">
+
+          <a href="https://github.com/Luizf-devdias" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.instagram.com/luizf_dev/" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/luiz-felipe-de-oliveira-dias-38230334b/" target="_blank"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://wa.me/5527996303960" target="_blank" aria-label="Whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+        </div>
+      </section>
+
+      <picture>
+        <source media="(max-width: 870px)" srcset="src/images/imagem-hexagonal-menor.svg">
+
+        <img src="src/images/imagem-hexagonal.svg" alt="Minha imagem hexagonal">
+      </picture>
+
+    </section>
+
+    <section class="sobre-mim" id="sobre">
+
+      <h2 class="titulo-secao-sobre">QUEM É <span>LUIZ FELIPE?</span></h2>
+
+      <section class="informacoes">
+        <img src="src/images/Minha_foto_395_x_488.png" alt="Minha foto 395 x 488">
+
+        <div class="informacoes-sobre">
+          <h2>MUITO PRAZER, <br> <span>SOU LUIZ FELIPE DE OLIVEIRA.</span></h2>
+
+          <p>Sou estudante de <strong>desenvolvimento fullstack</strong> apaixonado por tecnologia e aprendizado
+            constante. Busco mais do que dominar linguagens: quero criar soluções reais, que resolvam problemas e gerem
+            resultados.</p>
+
+          <p>A programação me mostrou que desenvolver é entender pessoas, pensar de forma inteligente e crescer a cada
+            projeto. Meu objetivo é me tornar um desenvolvedor completo, criativo e pronto para o mercado.</p>
+
+
+          <div class="btn-contato">
+            <a href="src/assets/Currículo tecnologia.pdf" target="_blank">Veja meu CV</a>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+    <section class="habilidades" id="habilidades">
+      <h2 class="titulo-habilidades">MINHAS <span>HABILIDADES:</span></h2>
+
+      <div class="habilidades-dominantes">
+
+        <div class="logo informacoes-javascript">
+          <i class="devicon devicon-javascript-plain"></i>
+          <h2>JavaScript</h2>
+          <p>Estou iniciando no JavaScript, aprendendo os fundamentos essenciais da linguagem. Busco me aprofundar
+            diariamente com exercícios práticos e novos desafios no desenvolvimento web.</p>
+        </div>
+
+        <div class="logo informacoes-html">
+          <i class="devicon-html5-plain"></i>
+          <h2>HTML</h2>
+          <p>Tenho domínio sólido em HTML5, com boa estruturação de páginas, semântica adequada e responsividade.
+            Consigo criar layouts limpos, funcionais e otimizados para diversos dispositivos.</p>
+        </div>
+
+        <div class="logo informacoes-css">
+          <i class="devicon-css3-plain"></i>
+          <h2>CSS</h2>
+          <p> Tenho habilidade em CSS3. Desenvolvo páginas com design responsivo, utilizando Flexbox e Grid, além de
+            boas práticas para tornar o layout moderno, organizado e visualmente atrativo.</p>
+        </div>
+
+        <div class="logo informacoes-figma">
+          <i class="devicon-figma-plain"></i>
+          <h2>Figma</h2>
+          <p>Tenho experiência com Figma para criar e analisar protótipos. Utilizo essa ferramenta para visualizar
+            interfaces e adaptar meus projetos ao design proposto, garantindo boa experiência.</p>
+        </div>
+
+        <div class="logo informacoes-git">
+          <i class="devicon-git-plain"></i>
+          <h2>Git</h2>
+          <p>Uso Git para controle de versão dos meus projetos, com conhecimento em comandos básicos como clone, commit,
+            push e pull. Faço uso para organizar e acompanhar meu progresso no código.</p>
+        </div>
+
+        <div class="logo informacoes-github">
+          <i class="devicon-github-original"></i>
+          <h2>GitHub</h2>
+          <p>Utilizo o GitHub para versionar e hospedar meus projetos. Tenho experiência com repositórios, commits e
+            branches, mantendo o código organizado, colaborativo e de fácil acesso público.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+
+      <h2 class="titulo-projetos">MEUS <span>PROJETOS:</span></h2>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/clone-nanatsu-no-taizai/" target="_blank">
+            <img src="src/images/imagens dos projetos/nanatsu.png" alt="Clone nanatsu" />
+            <h3>Nanatsu no Taizai</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/exercicio-landing-page/" target="_blank">
+            <img src="src/images/imagens dos projetos/landing-page.png" alt="Landing Page" />
+            <h3>Landing Page</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/perfil-de-links-sociais/" target="_blank">
+            <img src="src/images/imagens dos projetos/meus-links.png" alt="Meus Links Sociais" />
+            <h3>Meus Links Sociais</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/Projeto-Previsao-do-Tempo/" target="_blank">
+            <img src="src/images/imagens dos projetos/previsao-tempo.png" alt="Previsão do Tempo" />
+            <h3>Previsão do Tempo</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/preview-card-product/" target="_blank">
+            <img src="src/images/imagens dos projetos/product.png" alt="Cartão de Produto" />
+            <h3>Cartão de Produto</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizf-devdias.github.io/grid-price/" target="_blank">
+            <img src="src/images/imagens dos projetos/grid-price.png" alt="Grade de Preço" />
+            <h3>Grade de Preço</h3>
+            <p>🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="info-rodape">
+      <h2>LUIZ</h2>
+
+      <div class="social-links">
+
+        <a href="https://github.com/Luizf-devdias" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/luizf_dev/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/luiz-felipe-de-oliveira-dias-38230334b/" target="_blank"
+          aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://wa.me/5527996303960" target="_blank" aria-label="Whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="email">
+      <i class="fas fa-envelope"></i>
+      <p>luizfdias027@gmail.com</p>
+    </div>
+  </footer>
+</body>
+
+</html>

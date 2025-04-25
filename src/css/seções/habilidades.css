@@ -1,0 +1,56 @@
+.habilidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades .titulo-habilidades {
+    font-size: var(--font-size-titulos-secoes);
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom-secoes);
+    text-align: center;
+}
+
+.habilidades .titulo-habilidades span {
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+.habilidades .habilidades-dominantes {
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: var(--margin-bottom-secoes);
+}
+
+.habilidades .habilidades-dominantes .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 33rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem;
+    transition: var(--transições-elementos);
+}
+
+.habilidades .habilidades-dominantes .logo:hover {
+    box-shadow: 0 0 1.5rem var(--cor-primaria);
+    background-color: var(--cor-background-habilidades);
+    transform: scale(1.05);
+}
+
+.habilidades .habilidades-dominantes .logo h2 {
+    margin-bottom: 1rem;
+}
+
+.habilidades .habilidades-dominantes .logo i {
+    font-size: var(--font-size-logo-habilidades);
+    color: var(--cor-primaria);
+    margin-bottom: 0.1rem;
+}

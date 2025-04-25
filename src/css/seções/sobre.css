@@ -1,0 +1,68 @@
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim .titulo-secao-sobre {
+    font-size: var(--font-size-titulos-secoes);
+    font-weight: 600;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.sobre-mim .titulo-secao-sobre span {
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+.sobre-mim .informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    max-width: 120rem;
+    margin-bottom: var(--margin-bottom-secoes);
+}
+
+.sobre-mim .informacoes img {
+    max-width: 27rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px var(--cor-secundaria);
+}
+
+.sobre-mim .informacoes .informacoes-sobre h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sobre-mim .informacoes .informacoes-sobre h2 span {
+    color: var(--cor-primaria);
+}
+
+.sobre-mim .informacoes .informacoes-sobre p {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.btn-contato a {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: var(--cor-preta);
+    background-color: var(--cor-primaria);
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    transition: var(--transições-elementos);
+    width: 14rem;
+}
+
+.btn-contato a:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 0.8rem #00ff08;
+}

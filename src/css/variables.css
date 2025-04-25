@@ -1,0 +1,25 @@
+:root {
+    --cor-primaria: #00ff08;
+    --cor-secundaria: #ffffff;
+    --cor-background: #07013b;
+    --cor-background-habilidades: rgb(0, 0, 35);
+    --cor-fundo-projetos: #000013;
+    --cor-preta: #000;
+
+    /* FONTES */
+
+    --font-principal: 'poppins', sans-serif;
+    --font-logo: 'arvo', sans-serif;
+    --font-size-portfolio: 1.6rem;
+    --font-size-titulos-secoes: 3rem;
+    --font-size-logo-habilidades: 6rem;
+    --font-size-awesomes: 1.8rem;
+
+    /* MARGIN */
+
+    --margin-bottom-secoes: 10rem;
+
+    /* TRANSIÇÕES */
+
+    --transições-elementos: 0.3s;
+}
