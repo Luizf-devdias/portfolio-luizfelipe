@@ -1,4 +1,4 @@
-# 🚀 Luiz Felipe | Desenvolvedor Full Stack em formação
+# 🚀 Portfólio de Luiz Felipe | Desenvolvedor Full Stack em formação
 
 Bem-vindo(a) ao meu portfólio! Aqui você encontra meus projetos, minhas habilidades e um pouco da minha jornada como dev apaixonado por tecnologia e criação de soluções que realmente funcionam no mundo real.
 
@@ -14,7 +14,7 @@ Sou o Luiz Felipe, um entusiasta da tecnologia, estudante dedicado de desenvolvi
 
 ---
 
-> “Codar é mais do que escrever código — é criar experiências, contar histórias e resolver dores com criatividade.”
+#### *Acesse aqui o portfólio :* https://luizf-devdias.github.io/portfolio-luizfelipe/
 
 ---
 

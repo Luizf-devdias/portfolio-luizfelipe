@@ -8,7 +8,7 @@
 .projetos .titulo-projetos {
     font-size: var(--font-size-titulos-secoes);
     font-weight: 600;
-    margin-bottom: 10rem;
+    margin-bottom: var(--margin-bottom-titulos-h2);
 }
 
 .projetos .titulo-projetos span {
@@ -27,7 +27,7 @@
 
 .projetos .container-projetos .projeto {
     text-align: center;
-    max-width: 35rem;
+    max-width: 34rem;
     height: 100%;
     padding: 2.5rem;
     border-radius: 1rem;

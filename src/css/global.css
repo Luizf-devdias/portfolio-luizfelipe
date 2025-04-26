@@ -10,7 +10,7 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--font-principal);
     font-size: var(--font-size-portfolio);
-    max-width: 127rem;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 0 5rem;
 }

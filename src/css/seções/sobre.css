@@ -8,7 +8,7 @@
 .sobre-mim .titulo-secao-sobre {
     font-size: var(--font-size-titulos-secoes);
     font-weight: 600;
-    margin-bottom: 6rem;
+    margin-bottom: var(--margin-bottom-titulos-h2);
     text-align: center;
 }
 
