@@ -18,9 +18,8 @@
 .rodape .info-rodape .social-links a i{
     background-color: var(--cor-primaria);
     color: var(--cor-background);
-    margin-right: 0.5rem;
-    padding: 0.7rem;
-    border-radius: 100%;
+    padding: 1rem;
+    border-radius: 50%;
     font-size: var(--font-size-awesomes);
     transition: var(--transições-elementos);
 }

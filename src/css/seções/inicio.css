@@ -24,14 +24,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 0.5rem;
 }
 
 .inicio .informacoes-inicio .social-links a i {
     background-color: var(--cor-primaria);
     color: var(--cor-background);
-    margin-right: 0.7rem;
     padding: 1rem;
-    border-radius: 100%;
+    border-radius: 50%;
     font-size: var(--font-size-awesomes);
     transition: var(--transições-elementos);
 }
